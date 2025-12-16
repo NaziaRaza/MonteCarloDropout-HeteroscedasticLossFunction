@@ -11,7 +11,8 @@ The code accompanies the manuscript published in **IEEE Transactions on Industri
 ## Associated Publication
 
 **Nazia Raza**, Farrah Moazeni, PhD, Javad Khazaei, PhD  
-*Uncertainty-Aware Surrogate Modeling for Safety-Critical Power Systems*  
+*Uncertainty Disentanglement: A Surrogate Modeling Framework
+Bridging Monte Carlo Dropout and Heteroscedastic Neural Network*  
 IEEE Transactions on Industrial Informatics, 2026.
 
 Affiliation:  
@@ -19,8 +20,6 @@ Lehigh University, Bethlehem, PA, USA
 
 Contact:  
 - nar522@lehigh.edu  
-- moazeni@lehigh.edu  
-- khazaei@lehigh.edu  
 
 ---
 
