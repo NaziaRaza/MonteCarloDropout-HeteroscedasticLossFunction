@@ -1,6 +1,8 @@
 # Uncertainty Quantification Metrics for Probabilistic Regression
 
-This repository provides Python implementations of **deterministic** and **stochastic uncertainty quantification (UQ) metrics** used for evaluating surrogate and machine learning models in safety-critical engineering systems.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+
+This repository provides Python implementations of **deterministic** and **stochastic uncertainty quantification (UQ) metrics** for evaluating surrogate and machine learning models in safety-critical engineering systems.
 
 The code accompanies the manuscript published in **IEEE Transactions on Industrial Informatics (2026)**.
 
@@ -17,13 +19,15 @@ Lehigh University, Bethlehem, PA, USA
 
 Contact:  
 - nar522@lehigh.edu  
+- moazeni@lehigh.edu  
+- khazaei@lehigh.edu  
 
 ---
 
 ## Repository Contents
 
 - `compute_deterministic_scores.py`  
-  Computes deterministic regression metrics:
+  Computes deterministic regression performance metrics:
   - R²
   - Adjusted R²
   - Normalized RMSE
@@ -43,10 +47,10 @@ Contact:
 ## Intended Use
 
 These scripts are intended for:
-- Evaluation of surrogate models
-- Probabilistic regression benchmarking
+- Evaluation and benchmarking of surrogate models
+- Probabilistic regression analysis
 - Uncertainty-aware modeling in safety-critical systems
-- Reproducibility of reported metrics in the associated paper
+- Reproducibility of reported metrics in the associated IEEE publication
 
 The code supports **multi-output regression** and is framework-agnostic (compatible with PyTorch, TensorFlow, and scikit-learn outputs).
 
