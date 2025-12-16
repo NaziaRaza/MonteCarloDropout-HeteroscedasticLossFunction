@@ -49,10 +49,21 @@ These scripts are intended for:
 - Evaluation and benchmarking of surrogate models
 - Probabilistic regression analysis
 - Uncertainty-aware modeling in safety-critical systems
-- Reproducibility of reported metrics in the associated IEEE publication
-
+- 
 The code supports **multi-output regression** and is framework-agnostic (compatible with PyTorch, TensorFlow, and scikit-learn outputs).
 
+---
+##   Simulation Dataset on Zenodo
+
+A Monte Carlo simulation dataset of a naval shipboard microgrid is uploaded to **Zenodo** for benchmarking and reuse. 
+> **Zenodo DOI:** 10.5281/zenodo.XXXXXXX
+
+-- 
+Citation
+
+If you use this code or the dataset at Zenodo, please cite the associated IEEE Transactions on Industrial Informatics paper.
+
+  
 ---
 
 ## Dependencies
