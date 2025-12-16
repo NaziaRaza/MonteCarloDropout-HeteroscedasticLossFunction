@@ -22,7 +22,6 @@ Contact:
 - nar522@lehigh.edu  
 
 ---
-
 ## Repository Contents
 
 - `compute_deterministic_scores.py`  
@@ -44,12 +43,11 @@ Contact:
 ---
 
 ## Intended Use
-
 These scripts are intended for:
 - Evaluation and benchmarking of surrogate models
 - Probabilistic regression analysis
 - Uncertainty-aware modeling in safety-critical systems
-- 
+
 The code supports **multi-output regression** and is framework-agnostic (compatible with PyTorch, TensorFlow, and scikit-learn outputs).
 
 ---
@@ -62,10 +60,8 @@ A Monte Carlo simulation dataset of a naval shipboard microgrid is uploaded to *
 ##  Citation
 
 If you use this code or the dataset at Zenodo, please cite the associated IEEE Transactions on Industrial Informatics paper.
-
   
 ---
-
 ## Dependencies
 
 The scripts require the following Python packages:
