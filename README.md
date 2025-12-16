@@ -59,7 +59,7 @@ A Monte Carlo simulation dataset of a naval shipboard microgrid is uploaded to *
 > **Zenodo DOI:** 10.5281/zenodo.XXXXXXX
 
 ---
-Citation
+##  Citation
 
 If you use this code or the dataset at Zenodo, please cite the associated IEEE Transactions on Industrial Informatics paper.
 
