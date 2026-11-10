@@ -2,9 +2,12 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17955864.svg)](https://doi.org/10.5281/zenodo.17955864)
 
-This repository provides Python implementations of **deterministic** and **stochastic uncertainty quantification (UQ) metrics** for evaluating surrogate and machine learning models in safety-critical engineering systems.
+This repository provides Python implementations of a ** Monte Carlo Dropout Neural Network** trained with a **Modified Heteroscedastic Loss Function** for uncertainty-aware surrogate modeling. 
 
-The code accompanies the manuscript published in **IEEE Transactions on Industrial Informatics (2026)**.
+The script folder contains a complete uncertainty decomposition framework, along with **deterministic** and **stochastic uncertainty quantification (UQ) metrics** for safety-critical engineering systems.
+
+The code accompanies the research article *"Uncertainty Decomposition in Learning Nonlinear Stochastic Dynamics:
+A Dropout-Based Surrogate Modeling Framework"* published in **IEEE Transactions on Industrial Informatics (2026)**.
 
 ---
 
