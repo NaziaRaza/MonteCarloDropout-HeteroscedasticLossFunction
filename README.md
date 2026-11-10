@@ -1,4 +1,4 @@
-# Uncertainty Quantification Metrics for Probabilistic Regression
+# Uncertainty Decomposition Metrics for Probabilistic Regression
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
@@ -11,8 +11,8 @@ The code accompanies the manuscript published in **IEEE Transactions on Industri
 ## Associated Publication
 
 **Nazia Raza**, Farrah Moazeni, PhD, Javad Khazaei, PhD  
-*Uncertainty Disentanglement: A Surrogate Modeling Framework
-Bridging Monte Carlo Dropout and Heteroscedastic Neural Network*  
+*Uncertainty Decomposition in Learning Nonlinear Stochastic Dynamics:
+A Dropout-Based Surrogate Modeling Framework*  
 IEEE Transactions on Industrial Informatics, 2026.
 
 Affiliation:  
@@ -47,6 +47,7 @@ These scripts are intended for:
 - Evaluation and benchmarking of surrogate models
 - Probabilistic regression analysis
 - Uncertainty-aware modeling in safety-critical systems
+- Explainable AI 
 
 The code supports **multi-output regression** and is framework-agnostic (compatible with PyTorch, TensorFlow, and scikit-learn outputs).
 
