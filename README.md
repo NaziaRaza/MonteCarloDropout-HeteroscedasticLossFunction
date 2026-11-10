@@ -61,13 +61,3 @@ A Monte Carlo simulation dataset of a naval shipboard microgrid is uploaded to *
 ##  Citation
 
 If you use this code or the dataset at Zenodo, please cite the associated IEEE Transactions on Industrial Informatics paper.
-  
----
-## Dependencies
-
-The scripts require the following Python packages:
-
-```text
-numpy
-scipy
-pandas
