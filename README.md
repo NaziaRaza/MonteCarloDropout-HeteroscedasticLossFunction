@@ -1,6 +1,6 @@
 # Uncertainty-Aware Surrogate Modeling using Monte Carlo Dropout and Heteroscedastic Neural Network 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.17955864)
 
 This repository provides Python implementations of **deterministic** and **stochastic uncertainty quantification (UQ) metrics** for evaluating surrogate and machine learning models in safety-critical engineering systems.
 
