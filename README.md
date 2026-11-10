@@ -1,4 +1,4 @@
-# Uncertainty Decomposition Metrics for Probabilistic Regression
+# Uncertainty-Aware Surrogate Modeling using Monte Carlo Dropout and Heteroscedastic Neural Network 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
