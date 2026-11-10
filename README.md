@@ -58,7 +58,7 @@ The code supports **multi-output regression** and is framework-agnostic (compati
 ##   Simulation Dataset on Zenodo
 
 A Monte Carlo simulation dataset of a naval shipboard microgrid is uploaded to **Zenodo** for benchmarking and reuse. 
-> **Zenodo DOI:** 10.5281/zenodo.XXXXXXX
+> **Zenodo DOI:** 10.5281/zenodo.17955864
 
 ---
 ##  Citation
