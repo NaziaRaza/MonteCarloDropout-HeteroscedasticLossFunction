@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17955864.svg)](https://doi.org/10.5281/zenodo.17955864)
 
-This repository provides Python implementations of a ** Monte Carlo Dropout Neural Network** trained with a **Modified Heteroscedastic Loss Function** for uncertainty-aware surrogate modeling. 
+This repository provides Python implementations of a **Monte Carlo Dropout Neural Network** trained with a **Modified Heteroscedastic Loss Function** for uncertainty-aware surrogate modeling. 
 
 The script folder contains a complete uncertainty decomposition framework, along with **deterministic** and **stochastic uncertainty quantification (UQ) metrics** for safety-critical engineering systems.
 
@@ -27,21 +27,34 @@ Contact:
 ---
 ## Repository Contents
 
-- `compute_deterministic_scores.py`  
-  Computes deterministic regression performance metrics:
-  - R²
-  - Adjusted R²
-  - Normalized RMSE
-  - Weighted MAPE
+- `loss_funcs.py`
+  - Original heteroscedastic loss function
+  - Modified heteroscedastic loss function
+  - Beta-NLL loss function
 
-- `compute_stochastic_scores.py`  
-  Computes probabilistic uncertainty metrics assuming Gaussian predictive distributions:
-  - Prediction Interval Coverage Probability (PICP)
-  - Prediction Interval Width (PIW)
-  - Normalized PIW (PINAW)
-  - Predictive Entropy
-  - Continuous Ranked Probability Score (CRPS)
-  - Normalized CRPS
+- `Evaluation Scripts`  
+
+  - `model_inference.py`  
+    Computes MCD-HNN predictions:
+    - Mean Prediction
+    - Applies dropout at inference
+    - Epistemic and aleatory uncertainty computation
+      
+  - `compute_deterministic_scores.py`  
+    Computes deterministic regression performance metrics:
+    - R²
+    - Adjusted R²
+    - Normalized RMSE
+    - Weighted MAPE
+  
+  - `compute_stochastic_scores.py`  
+    Computes probabilistic uncertainty metrics assuming Gaussian predictive distributions:
+    - Prediction Interval Coverage Probability (PICP)
+    - Prediction Interval Width (PIW)
+    - Normalized PIW (PINAW)
+    - Predictive Entropy
+    - Continuous Ranked Probability Score (CRPS)
+    - Normalized CRPS
 
 ---
 
@@ -63,4 +76,4 @@ A Monte Carlo simulation dataset of a naval shipboard microgrid is uploaded to *
 ---
 ##  Citation
 
-If you use this code or the dataset at Zenodo, please cite the associated IEEE Transactions on Industrial Informatics paper.
+If you use this code or the dataset (available on Zenodo), please cite the associated IEEE Transactions on Industrial Informatics paper.
